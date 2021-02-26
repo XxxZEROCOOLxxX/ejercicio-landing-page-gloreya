@@ -1,0 +1,51 @@
+h6 { font-family: 'Permanent Marker', cursive; } 
+h1, h2, h3, h4, h5 { font-family: 'Barlow', sans-serif; }
+p, a, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
+
+header, main, footer, aside, section, article, figure, nav, div { display:block; }
+
+
+
+aside#whatsapp { }
+aside#whatsapp a { }
+aside#whatsapp a i { }
+aside#whatsapp a:hover i { }
+
+
+aside#scroll-top { }
+aside#scroll-top a:hover { }
+aside#scroll-top a:hover i { }
+
+
+header { }
+header figure { }
+header figure a { }
+header figure a img { }
+header figure a:hover { }
+header figure a:hover img { }
+
+              
+main
+
+main section#burguer
+main section#burguer div.contenido-centrado
+main section#burguer div.contenido-centrado article
+main section#burguer div.contenido-centrado article h6
+main section#burguer div.contenido-centrado article h3
+
+
+figure
+
+figure div.producto
+figure div.producto img
+figure div.producto img div.info-producto
+figure div.producto img div.info-producto h5
+figure div.producto img div.info-producto h4
+figure div.producto img div.info-producto p
+figure div.producto img div.info-producto div.puntos
+figure div.producto img div.info-producto div.puntos p
+
+
+
+
+

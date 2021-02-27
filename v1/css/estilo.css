@@ -4,6 +4,7 @@ p, a, button, form, input, select, option, textarea, em, span, strong, div { fon
 
 header, main, footer, aside, section, article, figure, nav, div { display:block; }
 
+body { margin: 0 !important; }
 
 
 aside#whatsapp { }
@@ -17,33 +18,106 @@ aside#scroll-top a:hover { }
 aside#scroll-top a:hover i { }
 
 
-header { }
-header figure { }
-header figure a { }
-header figure a img { }
-header figure a:hover { }
-header figure a:hover img { }
+header { width: 100%;height: 100px;margin: 0;float: none;position: fixed;top: 0;left: 0;z-index: 99999;background: #fff }
+header article { width: 900px;height: 100px;margin: 0 auto;float: none;position: relative; }
 
-              
-main
+header article figure {width: 80px;height: 90px;margin: 0;float: left;position: relative; }
+header article figure a {width: 78px;height: 90px;margin: 0 auto;float: none;position: relative;display: block;transition: all 0.3s ease-in; }
+header article figure a img {width: auto;height: 90px;display: block;margin: 0;float: none;transition: all 0.3s ease-in; }
+header article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+header article figure a:hover img { transition: all 0.3s ease-in; }
 
-main section#burguer
-main section#burguer div.contenido-centrado
-main section#burguer div.contenido-centrado article
-main section#burguer div.contenido-centrado article h6
-main section#burguer div.contenido-centrado article h3
+header article nav { width: 415px;height: 50px;margin: 25px 0;float: right;position: relative; }
+header article nav a { width: auto;height: auto;margin: 0;float: left;position: relative;display: block;color: #8c0c0c;text-decoration: none;font-size: 0.95em;line-height: 1em;font-weight: 500;padding: 17.5px 13px 15.5px;text-transform: uppercase;letter-spacing: 0.08em;border-bottom: solid 2px #fff;transition: all 0.3s ease-in; }
+header article nav a:hover { color: #000;border-bottom: solid 2px #8c0c0c ; transition: all 0.3s ease-in; }
 
 
-figure
+   /* main */       
 
-figure div.producto
-figure div.producto img
-figure div.producto img div.info-producto
-figure div.producto img div.info-producto h5
-figure div.producto img div.info-producto h4
-figure div.producto img div.info-producto p
-figure div.producto img div.info-producto div.puntos
-figure div.producto img div.info-producto div.puntos p
+main { }
+
+    /* Burguers */
+
+main section#burguers { }
+main section#burguers div.contenido-centrado { }
+
+main section#burguers div.contenido-centrado article { }
+main section#burguers div.contenido-centrado article h6 { }
+main section#burguers div.contenido-centrado article h3 { }
+
+main section#burguers div.contenido-centrado figure { }
+main section#burguers div.contenido-centrado figure div.producto { }
+main section#burguers div.contenido-centrado figure div.producto img { }
+main section#burguers div.contenido-centrado figure div.producto img div.info-producto { }
+main section#burguers div.contenido-centrado figure div.producto img div.info-producto h5 { }
+main section#burguers div.contenido-centrado figure div.producto img div.info-producto h4 { }
+main section#burguers div.contenido-centrado figure div.producto img div.info-producto p.texto-producto { }
+main section#burguers div.contenido-centrado figure div.producto img div.info-producto div.puntos { }
+main section#burguers div.contenido-centrado figure div.producto img div.info-producto p.precio.producto { }
+
+/* beverages */
+
+main section#beverages { }
+main section#beverages div.contenido-centrado { }
+
+main section#beverages div.contenido-centrado article  { }
+main section#beverages div.contenido-centrado article h6 { }
+main section#beverages div.contenido-centrado article h3 { }
+
+main section#beverages div.contenido-centrado figure { }
+main section#beverages div.contenido-centrado figure div.producto { }
+main section#beverages div.contenido-centrado figure div.producto img { }
+main section#beverages div.contenido-centrado figure div.producto img div.info-producto { }
+main section#beverages div.contenido-centrado figure div.producto img div.info-producto h5 { }
+main section#beverages div.contenido-centrado figure div.producto img div.info-producto h4 { }
+main section#beverages div.contenido-centrado figure div.producto img div.info-producto p.texto-producto { }
+main section#beverages div.contenido-centrado figure div.producto img div.info-producto div.puntos { }
+main section#beverages div.contenido-centrado figure div.producto img div.info-producto p.precio-producto { }
+
+/* combos */
+
+main section#combos
+main section#combos article
+main section#combos article nav
+main section#combos article nav a
+main section#combos article nav a img
+main section#combos article nav a:hover
+main section#combos article nav a:hover img
+
+/* pizzas */
+
+main section#pizzas { }
+main section#pizzas div.contenido-centrado { }
+
+main section#pizzas div.contenido-centrado article  { }
+main section#pizzas div.contenido-centrado article h6 { }
+main section#pizzas div.contenido-centrado article h3 { }
+
+main section#pizzas div.contenido-centrado figure { }
+main section#pizzas div.contenido-centrado figure div.producto { }
+main section#pizzas div.contenido-centrado figure div.producto img { }
+main section#pizzas div.contenido-centrado figure div.producto img div.info-producto { }
+main section#pizzas div.contenido-centrado figure div.producto img div.info-producto h5 { }
+main section#pizzas div.contenido-centrado figure div.producto img div.info-producto h4 { }
+main section#pizzas div.contenido-centrado figure div.producto img div.info-producto p.texto-producto { }
+main section#pizzas div.contenido-centrado figure div.producto img div.info-producto div.puntos { }
+main section#pizzas div.contenido-centrado figure div.producto img div.info-producto p.precio-producto { }
+
+
+/* FOOTER */
+
+footer { width: 100%;height: 200px;margin: 0;float: none;position: relative; background: url('../img/footer_bg.png') no-repeat top center #333; background-size: cover; }
+footer article { width: 900px;height: 200px;margin: 0 auto;float: none;position: relative; }
+footer article hr { width: 354px;height: 1px;display: block;margin: 99px 0;float: left;border: none;background: #555; }
+footer article figure { width: 108px;height: 100px;margin: 20px 40px;float: left;position: relative; }
+footer article figure a { width: 108px;height: 90px;margin: 0 auto;float: none;position: relative;display: block;transition: all 0.3s ease-in; }
+footer article figure a img { width: auto;height: 149px;display: block;margin: 0 auto;float: none;transition: all 0.3s ease-in; }
+footer article figure a:hover { }
+footer article figure a:hover img { }
+
+
+
+
 
 
 
